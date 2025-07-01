@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Panel Admina | Sklep Muzyczny</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<header>
+  Panel Administratora
+</header>
+
+<nav>
+  <button onclick="showSection('products')">Produkty</button>
+  <button onclick="showSection('clients')">Klienci</button>
+  <button onclick="showSection('sellers')">Sprzedawcy</button>
+</nav>
+
+<div class="section active" id="products">
+  <h2>Zarządzaj produktami</h2>
+  <button class="add-button">Dodaj nowy produkt</button>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nazwa</th>
+        <th>Cena</th>
+        <th>Kategoria</th>
+        <th>Akcje</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>001</td>
+        <td>Gitara Yamaha</td>
+        <td>699 zł</td>
+        <td>Gitary</td>
+        <td class="actions">
+          <button class="edit">Edytuj</button>
+          <button class="delete">Usuń</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section" id="clients">
+  <h2>Zarządzaj klientami</h2>
+  <button class="add-button">Dodaj nowego klienta</button>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Imię i nazwisko</th>
+        <th>Email</th>
+        <th>Status</th>
+        <th>Akcje</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>101</td>
+        <td>Jan Kowalski</td>
+        <td>jan@example.com</td>
+        <td>Aktywny</td>
+        <td class="actions">
+          <button class="edit">Edytuj</button>
+          <button class="delete">Usuń</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section" id="sellers">
+  <h2>Zarządzaj sprzedawcami</h2>
+  <button class="add-button">Dodaj nowego sprzedawcę</button>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Imię i nazwisko</th>
+        <th>Email</th>
+        <th>Stanowisko</th>
+        <th>Akcje</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>201</td>
+        <td>Alicja Nowak</td>
+        <td>alicia@example.com</td>
+        <td>Konsultant</td>
+        <td class="actions">
+          <button class="edit">Edytuj</button>
+          <button class="delete">Usuń</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
