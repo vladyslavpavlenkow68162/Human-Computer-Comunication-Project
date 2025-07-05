@@ -5,32 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sklep Muzyczny</title>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-    <header>
-        <div class="auth-buttons">
-        <a href="registration.html" class="auth-btn">Zarejestruj się</a>
-        <a href="signin.html" class="auth-btn">Zaloguj się</a>
+<header>
+  <div class="auth-buttons">
+    <a href="registration.html" class="auth-btn"><i class="fas fa-user-plus"></i> Zarejestruj się</a>
+    <a href="signin.html" class="auth-btn"><i class="fas fa-sign-in-alt"></i> Zaloguj się</a>
+  </div>
 
-      </div>
+  <div class="header-title">
+    <h1>Sklep Muzyczny</h1>
+    <p>Najlepsze instrumenty w najlepszych cenach</p>
+  </div>
+</header>
 
-
-        <div class="header-title">
-          <h1>Sklep Muzyczny</h1>
-          <p>Najlepsze instrumenty w najlepszych cenach</p>
-        </div>
-      </header>
-      
-      
 <nav>
-  <a href="#">Strona główna</a>
-  <a href="#">O nas</a>
-  <a href="#">Kontakt</a>
-  <a href="cart.html">Koszyk</a>
+  <a href="#home"><i class="fa-solid fa-house"></i> Strona główna</a>
+  <a href="#about"><i class="fa-solid fa-users"></i> O nas</a>
+  <a href="#contact"><i class="fa-solid fa-envelope"></i> Kontakt</a>
+  <a href="cart.html"><i class="fa fa-shopping-cart"></i> Koszyk</a>
 </nav>
 
-<main class="produkty">
+<main id="home" class="produkty">
 
   <div class="produkt">
     <img src="https://lazermusic.com.ph/cdn/shop/products/1_61618ed3-b64a-4129-a7fd-56dedfca54f8.png?v=1618899374" alt="Gitara klasyczna">
@@ -38,7 +36,7 @@
       <h3>Gitara Klasyczna</h3>
       <p>Cena: 499 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -47,7 +45,7 @@
       <h3>Zestaw Perkusyjny</h3>
       <p>Cena: 1499 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -56,7 +54,7 @@
       <h3>Keyboard Yamaha</h3>
       <p>Cena: 899 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -65,7 +63,7 @@
       <h3>Skrzypce 4/4</h3>
       <p>Cena: 699 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -74,7 +72,7 @@
       <h3>Trąbka Yamaha</h3>
       <p>Cena: 1199 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -83,7 +81,7 @@
       <h3>Gitara Elektryczna</h3>
       <p>Cena: 1099 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -92,7 +90,7 @@
       <h3>Ukulele Sopranowe</h3>
       <p>Cena: 199 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -101,7 +99,7 @@
       <h3>Cajón Perkusyjny</h3>
       <p>Cena: 349 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -110,7 +108,7 @@
       <h3>Harmonijka Ustna</h3>
       <p>Cena: 89 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -119,7 +117,7 @@
       <h3>Flet Prosty</h3>
       <p>Cena: 59 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -128,7 +126,7 @@
       <h3>Saksofon Altowy</h3>
       <p>Cena: 1899 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -137,7 +135,7 @@
       <h3>Kontrabas</h3>
       <p>Cena: 2499 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -146,7 +144,7 @@
       <h3>Pianino Cyfrowe</h3>
       <p>Cena: 2999 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -155,7 +153,7 @@
       <h3>Bongosy</h3>
       <p>Cena: 299 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
   <div class="produkt">
@@ -164,7 +162,7 @@
       <h3>Tamburyn</h3>
       <p>Cena: 49 zł</p>
     </div>
-    <button class="btn">Dodaj do koszyka</button>
+    <button class="btn"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
   </div>
 
 </main>
