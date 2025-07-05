@@ -2,29 +2,31 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Adam Hall 5740 A - Sklep Muzyczny</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sklep Muzyczny</title>
   <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-    <header>
-        <div class="auth-buttons">
-          <button class="auth-btn">Zarejestruj się</button>
-          <button class="auth-btn">Zaloguj się</button>
-        </div>
-        <div class="header-title">
-          <h1>Sklep Muzyczny</h1>
-          <p>Najlepsze instrumenty w najlepszych cenach</p>
-        </div>
-      </header>
+   <header>
+  <div class="auth-buttons">
+    <a href="registration.html" class="auth-btn"><i class="fas fa-user-plus"></i> Zarejestruj się</a>
+    <a href="signin.html" class="auth-btn"><i class="fas fa-sign-in-alt"></i> Zaloguj się</a>
+  </div>
 
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="#">O nas</a>
-        <a href="#">Kontakt</a>
-        <a href="#">Koszyk</a>
-      </nav>
+  <div class="header-title">
+    <h1>Sklep Muzyczny</h1>
+    <p>Najlepsze instrumenty w najlepszych cenach</p>
+  </div>
+</header>
+
+<nav>
+  <a href="#home"><i class="fa-solid fa-house"></i> Strona główna</a>
+  <a href="#about"><i class="fa-solid fa-users"></i> O nas</a>
+  <a href="#contact"><i class="fa-solid fa-envelope"></i> Kontakt</a>
+  <a href="cart.html"><i class="fa fa-shopping-cart"></i> Koszyk</a>
+</nav>
 
 <div class="breadcrumb">
   Strona główna / Nagłośnienie / Akcesoria / Adam Hall 5740 A - Double Stud Ring
@@ -43,7 +45,7 @@
       Ilość: <input type="number" value="1" min="1"/>
     </div>
 
-    <button class="add-to-cart">Dodaj do koszyka</button>
+    <button class="add-to-cart"><i class="fa fa-cart-plus"></i> Dodaj do koszyka</button>
 
     <div class="info-box">
       Wysyłka 24h <br />
